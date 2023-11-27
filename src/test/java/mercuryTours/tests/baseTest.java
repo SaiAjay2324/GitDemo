@@ -41,6 +41,7 @@ public class baseTest {
 
 	@AfterMethod
 	public void closeLaunch() {
+		System.out.println("Hi ma");
 		driver.close();
 	}
 	
