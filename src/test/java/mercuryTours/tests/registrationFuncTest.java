@@ -25,8 +25,8 @@ public class registrationFuncTest extends baseTest {
 			getScreenShot(registerPage.getInstance(),"SuccessfulRegistration");
 		}
 		System.out.println("Git test");
-		System.out.println("Git test1");
 		System.out.println("Git test2");
+		System.out.println("Git test3");
 		
 	}
 	
