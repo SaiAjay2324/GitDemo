@@ -24,6 +24,10 @@ public class registrationFuncTest extends baseTest {
 			Assert.assertTrue(veri);
 			getScreenShot(registerPage.getInstance(),"SuccessfulRegistration");
 		}
+		System.out.println("Git test");
+		System.out.println("Git test1");
+		System.out.println("Git test2");
+		
 	}
 	
 	@DataProvider
