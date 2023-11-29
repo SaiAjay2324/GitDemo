@@ -30,6 +30,11 @@ public class registrationFuncTest extends baseTest {
 		System.out.println("Git test4");
 	}
 	
+	@Test
+	public void itest() {
+		System.out.println("Hi this is itest");
+	}
+	
 	@DataProvider
 	public Object[][] getData(){
 		HashMap<String,String>map=new HashMap<String,String>();

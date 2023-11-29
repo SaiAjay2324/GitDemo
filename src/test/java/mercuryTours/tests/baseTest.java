@@ -31,6 +31,10 @@ public class baseTest {
 		File ssPath = new File(System.getProperty("user.dir") + "//ScreenShot//"+errName+".png");
 		FileUtils.copyFile(source, ssPath);
 	}
+	
+	public void gittest() {
+		System.out.println("This is the git test");
+	}
 
 	@BeforeMethod
 	public void launchPage() throws IOException {
