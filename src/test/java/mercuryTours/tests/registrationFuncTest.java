@@ -40,6 +40,12 @@ public class registrationFuncTest extends baseTest {
 		System.out.println("as");
 	}
 	
+	@Test
+	public void asi() {
+		System.out.println("asi");
+	}
+	
+	
 	@DataProvider
 	public Object[][] getData(){
 		HashMap<String,String>map=new HashMap<String,String>();
